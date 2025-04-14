@@ -27,3 +27,17 @@
   <script src="script.js"></script>
 </body>
 </html>
+<main>
+  <div class="card">
+    <img id="character-image" src="https://i.imgur.com/VP6gT6m.jpg" alt="Personaje misterioso" />
+    <p><em>¿Puedes adivinar quién es este personaje?</em></p>
+
+    <form id="guess-form">
+      <input type="text" id="guess" placeholder="Escribe un nombre..." required />
+      <button type="submit">Adivinar</button>
+    </form>
+
+    <p id="result"></p>
+  </div>
+</main>
+
