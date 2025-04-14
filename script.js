@@ -1,8 +1,8 @@
 // Datos simulados por ahora
 const personajeDelDia = {
-  nombre: "Naruto",
+  nombre: "Mono",
   imagen: "https://i.imgur.com/VP6gT6m.jpg", // Imagen del personaje
-  pistas: ["Es rubio", "Ninja", "Ama el ramen"]
+  pistas: ["Tiene lentes", "Panadero", "Ama el platano"]
 };
 
 document.addEventListener("DOMContentLoaded", () => {
