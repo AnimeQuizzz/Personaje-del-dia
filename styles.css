@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f7e1ff, #d2ecff);
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #fff0f5;
+  padding: 1.5em 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #5d3f6a; /* Color complementario para el título */
+}
+
+main {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Alinea verticalmente el contenido */
+  min-height: 80vh; /* Asegura que el contenido se mantenga centrado en pantallas pequeñas */
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  padding: 2em;
+  max-width: 400px;
+  width: 100%;
+  text-align: left; /* Alinea el contenido de la tarjeta a la izquierda */
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 1em;
+}
+
+footer {
+  margin-top: 3em;
+  padding: 1em;
+  font-size: 0.9em;
+  background-color: #fff0f5;
+}
+
+footer p {
+  margin: 0;
+}
+
+input, button {
+  padding: 0.6em;
+  margin: 0.5em;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: calc(100% - 1.2em); /* Ajusta el ancho del input y button */
+}
+
+button {
+  background-color: #ffb6c1;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+button:hover {
+  background-color: #ffa3b1;
+}
+
+input:focus, button:focus {
+  outline: none; /* Elimina el borde azul predeterminado en los elementos con focus */
+  box-shadow: 0 0 5px rgba(255, 182, 193, 0.8); /* Resalta el input y el botón cuando están enfocados */
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
