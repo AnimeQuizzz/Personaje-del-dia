@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personaje de Anime del Día</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>✨ Personaje de Anime del Día ✨</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <img id="character-image" src="https://via.placeholder.com/300x400" alt="Personaje anime" />
+      <h2 id="character-name">Nombre del Personaje</h2>
+      <p id="character-description">Descripción breve del personaje. Aquí irá algo de información interesante o divertida.</p>
+      <p id="anime-title">Anime: <strong>Naruto</strong></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Hecho con 💖 por [Tu Nombre]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
