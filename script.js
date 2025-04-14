@@ -2,7 +2,7 @@
 const personajeDelDia = {
   nombre: "mono",
   imagen: "imagenes/mono.png", // Imagen local del personaje
-  pistas: ["tiene lentes", "panadero", "Ama el lol"]
+  pistas: ["tiene lentes", "panadero", "Ama el platano"]
 };
 
 document.addEventListener("DOMContentLoaded", () => {
